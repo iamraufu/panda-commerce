@@ -1,13 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Commerce</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
+
 <body>
-    
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Shoes</a>
+                        <a class="nav-link" href="#">Backpack</a>
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--  -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-7"></div>
+                        <div class="col-md-5"><img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-7"></div>
+                        <div class="col-md-5"><img src="images/banner-images/headphone.png" class="d-block w-100"
+                                alt="..."></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-7"></div>
+                        <div class="col-md-5"><img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </header>
+    <!--  -->
+    <main>
+        <section class="container overflow-hidden mt-5">
+            <div class="row gx-5">
+                <div class="col">
+                    <div class="d-flex align-items-center justify-content-around p-3 rounded bg-warning">
+                        <h1>Watch</h1>
+                        <img src="images/categories/watch.png" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex align-items-center justify-content-around p-3 rounded bg-success">
+                        <h1>Bag</h1>
+                        <img src="images/categories/bag.png" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex align-items-center justify-content-around p-3 rounded bg-primary">
+                        <h1>Shoes</h1>
+                        <img src="images/categories/shoes.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
