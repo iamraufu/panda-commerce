@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Commerce</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -19,32 +20,47 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Shoes</a>
-                        <a class="nav-link" href="#">Backpack</a>
-                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                        <a class="nav-link" href="#shoes">Shoes</a>
+                        <a class="nav-link" href="#backpack">Backpack</a>
+                        <a class="nav-link" href="#subscribe" tabindex="-1" aria-disabled="true">Subscribe</a>
                     </div>
                 </div>
             </div>
         </nav>
         <!--  -->
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide panda-slide mt-5" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-7"></div>
+                    <div class="d-flex align-items-center row p-5">
+                        <div class="col-md-7">
+                            <h1>Mega LCD TV For Sports</h1>
+                            <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                            <h3>$1200</h3>
+                            <button class="btn btn-warning">Buy Now</button>
+                        </div>
                         <div class="col-md-5"><img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-7"></div>
+                    <div class="d-flex align-items-center row p-5">
+                        <div class="col-md-7">
+                            <h1>Cool Dude Headphone</h1>
+                            <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                            <h3>$420</h3>
+                            <button class="btn btn-warning">Buy Now</button>
+                        </div>
                         <div class="col-md-5"><img src="images/banner-images/headphone.png" class="d-block w-100" alt="..."></div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-7"></div>
+                    <div class="d-flex align-items-center row p-5">
+                        <div class="col-md-7">
+                            <h1>X-Box for your living room</h1>
+                            <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
+                            <h3>$600</h3>
+                            <button class="btn btn-warning">Buy Now</button>
+                        </div>
                         <div class="col-md-5"><img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
@@ -62,8 +78,8 @@
     </header>
     <!--  -->
     <main class="container`">
-        <section class="container overflow-hidden mt-5">
-            <div class="row gx-5">
+        <section class="container overflow-hidden mt-5 categories">
+            <div class="row g-5">
                 <div class="col">
                     <div class="d-flex align-items-center justify-content-around p-3 rounded bg-warning">
                         <h1 class="text-white">Watch</h1>
@@ -86,44 +102,46 @@
         </section>
         <!--  -->
 
-        <section class="mt-5 container">
+        <section id="shoes" class="mt-5 container">
             <h3>Shoes</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="shadow card h-100">
+                    <div class="shadow card panda-card h-100">
                         <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Supply 350</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
                             <h5>$120</h5>
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer panda-card-footer">
                             <button type="button" class="btn btn-warning">Buy Now >></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="shadow card h-100">
+                    <div class="shadow card panda-card h-100">
                         <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Nike 360 </h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                            </p>
                             <h5>$320</h5>
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer panda-card-footer">
                             <button type="button" class="btn btn-warning">Buy Now >></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="shadow  card h-100">
+                    <div class="shadow card panda-card h-100">
                         <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Red Airmax</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+                            </p>
                             <h5>$350</h5>
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer panda-card-footer">
                             <button type="button" class="btn btn-warning">Buy Now >></button>
                         </div>
                     </div>
@@ -131,51 +149,65 @@
             </div>
         </section>
         <!--  -->
-        <section class="mt-5 container">
+        <section id="backpack" class="mt-5 container">
             <h3>Backpack</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="shadow card h-100">
+                    <div class="shadow card panda-card h-100">
                         <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Red Laltu Bag</h5>
                             <h5>$120</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer panda-card-footer">
                             <button type="button" class="btn btn-warning">Buy Now >></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="shadow card h-100">
+                    <div class="shadow card panda-card h-100">
                         <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Blue Niltu Bag</h5>
                             <h5>$320</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                            </p>
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer panda-card-footer">
                             <button type="button" class="btn btn-warning">Buy Now >></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="shadow  card h-100">
+                    <div class="shadow card panda-card h-100">
                         <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Black Kaltu Bag</h5>
                             <h5>$169</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+                            </p>
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer panda-card-footer">
                             <button type="button" class="btn btn-warning">Buy Now >></button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!--  -->
+        <section id="subscribe" style="height: 300px;" class=" container bg-light d-flex justify-content-center align-items-center mt-5">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <h6>Get updates on sales, specials and more</h6>
+                <input type="text" placeholder="Enter your email address">
+                <button class="btn btn-info">SUBMIT</button>
+            </div>
+        </section>
     </main>
+    <footer class="text-center mt-5">
+        <small>©2021. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
+    </footer>
     <script src="js/bootstrap.min.js"></script>
 </body>
 
